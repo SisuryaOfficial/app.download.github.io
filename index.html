@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Apps</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, #1e90ff, #ff6b6b);
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            animation: slideInFromTop 1s ease-in-out;
+        }
+
+        .app-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .app-item {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            margin: 15px 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .app-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .app-item h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .app-item p {
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            background-color: #ff6b6b;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+        }
+
+        .download-btn:hover {
+            background-color: #1e90ff;
+            transform: scale(1.1);
+        }
+
+        .download-btn:active {
+            transform: scale(1);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInFromTop {
+            from {
+                transform: translateY(-100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Download Apps</h1>
+        <ul class="app-list">
+            <li class="app-item">
+                <img src="app1.png" alt="App 1">
+                <h2>Simontok</h2>
+                <p>Aplikasi Nonton Bokep Lengkap.</p>
+                <a href="simontok.apk" class="download-btn">Download</a>
+            </li>
+            <li class="app-item">
+                <img src="app2.png" alt="App 2">
+                <h2>Nekopoi</h2>
+                <p>Streaming Anime Hentai Seks.</p>
+                <a href="neko.apk" class="download-btn">Download</a>
+            </li>
+            <li class="app-item">
+                <img src="app3.png" alt="App 3">
+                <h2>Cuaca</h2>
+                <p>Streaming Video Hentai & Jav.</p>
+                <a href="cuaca.apk" class="download-btn">Download</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
